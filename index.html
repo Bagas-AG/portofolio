@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bagas Gunawan | Backend & AI Developer</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/4c6f3b8b2f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-950 text-white">
+
+  <!-- NAVBAR -->
+  <nav class="fixed top-0 w-full bg-gray-900/90 backdrop-blur-md shadow-md z-50">
+    <div class="max-w-10xl mx-auto px-8 py-4 flex justify-between items-center">
+
+      <!-- Left -->
+      <div class="text-xl font-bold text-blue-400">
+        Bagas Gunawan
+      </div>
+
+      <!-- Right -->
+      <div class="space-x-8 text-gray-300 font-medium">
+        <a href="#about" class="hover:text-blue-400 transition">About</a>
+        <a href="#projects" class="hover:text-blue-400 transition">Projects</a>
+        <a href="#contact" class="hover:text-blue-400 transition">Contact</a>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <!-- HERO -->
+  <section class="min-h-screen flex items-center pt-28">
+    <div class="max-w-6xl mx-auto px-8 grid md:grid-cols-2 gap-16 items-center">
+
+      <!-- LEFT: PHOTO -->
+      <div class="flex justify-center md:justify-start">
+        <img src="your-photo.jpg" alt="Profile"
+          class="w-72 h-72 rounded-2xl object-cover border-4 border-blue-500 shadow-2xl">
+      </div>
+
+      <!-- RIGHT: DESCRIPTION -->
+      <div>
+        <h1 class="text-5xl md:text-6xl font-extrabold mb-6 leading-tight">
+          Informatics engineering students
+        </h1>
+
+        <p class="text-gray-400 text-lg mb-8 leading-relaxed">
+          I build intelligent automation systems that streamline enterprise workflows
+          and transform document processing using AI. Experienced in FastAPI, OCR systems,
+          and scalable backend architecture for enterprise environments.
+        </p>
+
+        <!-- Download CV -->
+        <a href="cv.pdf" download
+          class="bg-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition shadow-lg">
+          Download CV
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ABOUT -->
+  <section id="about" class="py-24 bg-gray-900">
+    <div class="max-w-5xl mx-auto px-8 text-center">
+      <h2 class="text-3xl font-bold mb-6 text-blue-400">About Me</h2>
+      <p class="text-gray-400 text-lg leading-relaxed">
+        Specialized in developing intelligent document processing systems such as
+        invoice matching automation, OCR classification engines, and workflow-based
+        backend systems using Python and FastAPI.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- PROJECTS -->
+  <section id="projects" class="py-24 bg-gray-950">
+    <div class="max-w-7xl mx-auto px-8">
+      <h2 class="text-3xl font-bold text-center mb-16 text-blue-400">
+        Featured Projects
+      </h2>
+
+      <div class="grid md:grid-cols-2 gap-12">
+
+        <!-- Project Card -->
+        <div class="bg-gray-900 rounded-2xl shadow-xl hover:scale-105 transition duration-500 overflow-hidden">
+
+          <div class="h-64">
+            <iframe src="https://bangun-datar.vercel.app/" class="w-full h-full pointer-events-none">
+            </iframe>
+          </div>
+
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-3 text-blue-400">
+              simple calculator for flat shapes
+            </h3>
+            <p class="text-gray-400 mb-4">
+              This program was created as a basic programming assignment using HTML, CSS and JavaScript to find the area and perimeter of a flat shape.
+            </p>
+
+            <a href="https://example.com" target="_blank"
+              class="inline-block bg-blue-600 px-5 py-2 rounded-lg hover:bg-blue-700 transition">
+              Visit Website →
+            </a>
+          </div>
+        </div>
+        <div class="bg-gray-900 rounded-2xl shadow-xl hover:scale-105 transition duration-500 overflow-hidden">
+
+          <div class="h-64">
+            <iframe src="https://example.com" class="w-full h-full pointer-events-none">
+            </iframe>
+          </div>
+
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-3 text-blue-400">
+              AP Invoice Matching System
+            </h3>
+            <p class="text-gray-400 mb-4">
+              OCR-based automation for invoice classification and PO grouping.
+            </p>
+
+            <a href="https://example.com" target="_blank"
+              class="inline-block bg-blue-600 px-5 py-2 rounded-lg hover:bg-blue-700 transition">
+              Visit Website →
+            </a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-24 bg-gray-900 text-center">
+    <h2 class="text-3xl font-bold mb-6 text-blue-400">Let's Connect</h2>
+    <p class="text-gray-400 mb-8">
+      Open to backend & AI engineering opportunities.
+    </p>
+  </section>
+
+
+  <!-- FOOTER -->
+<footer class="bg-black py-10 text-center">
+
+  <!-- Social Icons -->
+  <div class="flex justify-center space-x-10 text-3xl mb-6 text-gray-400">
+
+    <a href="https://wa.me/628XXXXXXXXXX" target="_blank"
+       class="hover:text-green-500 transition duration-300">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <a href="https://github.com/yourusername" target="_blank"
+       class="hover:text-white transition duration-300">
+      <i class="fa-brands fa-github"></i>
+    </a>
+
+    <a href="https://linkedin.com/in/yourprofile" target="_blank"
+       class="hover:text-blue-500 transition duration-300">
+      <i class="fa-brands fa-linkedin"></i>
+    </a>
+
+    <a href="mailto:your@email.com"
+       class="hover:text-red-500 transition duration-300">
+      <i class="fa-solid fa-envelope"></i>
+    </a>
+
+  </div>
+
+  <p class="text-gray-600 text-sm">
+    © 2026 Bagas Gunawan. All rights reserved.
+  </p>
+
+</footer>
+
+</body>
+
+</html>
